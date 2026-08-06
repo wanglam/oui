@@ -21,7 +21,9 @@ scripts/*
 !scripts/preinstall.js
 !scripts/postinstall.js
 
-src/**/*.!(scss)
+src/**/*
+!src/**/*.scss
+!src/**/
 
 .DS_Store
 .eslintcache
